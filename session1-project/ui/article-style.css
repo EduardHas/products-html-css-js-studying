@@ -1,0 +1,35 @@
+body{
+    background-color: green;
+}
+.article-area{
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+}
+/* We want to assing 15 px - only to the article p's so */
+
+.article-area p{
+    font-size: 15px;
+}
+
+.article-area p span {
+    font-size: 20px;
+    color: yellow;
+}
+/*Above I restricted the style only to .special-text inside p inside class article-area. But  this is also an option: */
+/* .special-text{
+    font-size: 20px;
+    color: yellow;
+} */
+
+
+/* That's a way to add a class to the new element without breaking the exists element 
+this saying "assign this values only to element with both article-area and rtl area.*/
+.article-area.rtl{
+
+    /* background-color: blue; for testing */
+    direction: rtl;
+
+}
