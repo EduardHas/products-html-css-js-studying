@@ -1,0 +1,60 @@
+Task on the UI for session 2 
+
+********************DON'T forget to work on A-session-2 branch. **************************
+also when we sit together, add me as reviewer (don't do this on the task time. )
+
+Until 11:45
+
+
+UI(=user interface. In the context(=relation) of view, the front side of the program )
+
+1- Download some image for use it as product
+
+
+2- do the template(=page look - Hamarewh Shell Hadaf) of the provided amazone page. (see h template todo in the folder. )
+call it "static-products.html"
+
+You can see it here -
+https://www.amazon.com/s?k=pants&crid=3DA0812AQAIL8&sprefix=pants%2Caps%2C183&ref=nb_sb_noss
+
+
+**Notice - you don't require to make it excatly pixel to pixel, just similar. Don't stop because little things.
+
+We have some parts to the task. 
+
+
+    LAYOUT
+    https://www.geeksforgeeks.org/css-website-layout/ - IF YOU WANT TO TAKE A LOOK
+
+    2.1 - first - do the global layout - the side bar, the header, the footer..
+    Don't insert content to there, just put the element, and do a similar color (ask me about how to check what color there is in this website).
+
+
+    PRODUCT
+
+    2.2 - Do product element - wrapped by div for showing the products. 
+    
+    - Take one example from the excel PRODUCTS at the "assests" folder. 
+
+    I am comparing here from the view at amazone to the view should be on the page. Those are the requirments of the element:
+
+    - For the image - put the image you have downloaded, For the name put the name (ברור אבל אומרים גם דברים ברורים).
+
+    - At the place of the stars, put the brand (color of the stars) , and where the numbers are - put the quantity.
+    - You have place to the price. Put it there.
+    - Under this write: "Not Food" Or "Food" - depend on the product you have choosed. - use simple js as Haim taught you, to affect the dom ( = html) with js.
+
+    Do grid of products 
+    Notice that the product should be shown 3 time on each row (currently don't bother your self to handle the responsivity.
+    U CAN USE GRID IF YOU WANT (or other pure html elements ). DON'T USE BOOTSTRAP, for now. 
+
+    2.4 - copy the products you have made 12 time. It's should be look similar to the template 
+
+    2.5 - Let's understand together what is box-sizing.
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+Don't forget to work on A-session-2 branch. 
+Make a commit called "html task finished". 
+
+
+
