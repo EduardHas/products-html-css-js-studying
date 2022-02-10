@@ -1,0 +1,36 @@
+Task on the Logic for session 2 - 
+Do the UI tasks first. 
+
+(all lec2 tutorial of Elias, and lec3 until 17 page (includes))
+
+Logic is the functional side of the program. 
+This that running things. 
+The UI is just a dumb thing (= דומם), that shows what the logic is generating for it. 
+It's create logic - smart, because it's manage the things in logic way () 
+
+https://www.virtusa.com/digital-themes/logic-programming#:~:text=Logic%20programming%20is%20a%20programming,based%20on%20all%20available%20data.
+
+1- CLASS Object  - Let's do it class  (page 11 lec3) 
+Take the constructor of the products that we have made - convert it to E6s class 
+
+2- ENCAPSULATION - PRIVATE
+Let's do it private as proper Object should be.
+    2.1 Static - do one Id number that will be shared to all generated products. that's mean that if you have created one product 
+    - the a unique number will be assign to the product. 
+    Use static var for that.  
+
+3- Create and Add about 5 products from the excel that reside (=נמצא ) in assests folder, to products array, 
+by using the class object you have created above.  call the array "productsMockData" (mock = מזויף, מדומה)
+
+4- SHOW ALL ITEMS 
+
+copy you previos html products page. call it "dynamic-products.html". 
+Make a function that makes the html show the products of the array 
+
+Don't forget to work on A-session-2 branch. 
+Make a commit called "js task finished". 
+
+AFTER YOU HAVE FINISHED, PUSH YOU SOLUTION  to your repo, open a PR and mention me at Github. 
+
+
+
